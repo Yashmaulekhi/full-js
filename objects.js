@@ -47,3 +47,17 @@ const Jsuser = {
    console.log(Object.keys(tinderuser))//in array return
    console.log(Object.values(tinderuser))
    console.log(Object.entries(tinderuser))//make each key pair value as an element of array
+   console.log(Object.hasOwnProperty('isloggedin'))//make each key pair value as an element of array
+   //JSON------------------------------------------------------------------
+   const course = {
+       coursename:"BCA",
+       courseprice:"123",
+       courseinstructor:"Aditya"}
+       const {courseinstructor} = course
+       console.log(courseinstructor)//also a method to fetch aditya from object used in react see below function
+   
+     const navbar =  ({company}) => {//there it used destructure object
+
+     }
+     navbar(company="hitesh")
+    
