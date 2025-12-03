@@ -17,6 +17,7 @@ const d = ["a","b","c","d"]
 const e = ["e","f","g","h"]
 d.push(e)
 console.log(d)
+  
 let f =d.concat(e)
 console.log(f)
 let g =[...d,...e]//same as concat
