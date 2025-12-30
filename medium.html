@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+       /*Print the table of any number (like 5 → 5,10,15,..).
+       
+       Find the factorial of a number.
+       
+       Check whether a string is a palindrome.
+       
+       Count the number of vowels in a string.
+       
+       Reverse an array without using reverse().
+       
+       Find the second largest number in an array.
+       
+       Remove duplicates from an array.*/
+       let x =Number(prompt("Enter number for factorial"));
+     if(x==0) {
+        document.write(1);
+    } else{
+        
+        let a=1
+        for(i=x;i>0;i--){
+            a*=i;
+        }
+        document.write(a);
+        document.write("<br>");
+        
+    }
+    let d= prompt("enter for palindrome check");
+    document.write(typeof(d));
+   
+
+// reverse the string
+let y = d.split("").reverse().join("");//split convert string in array as array has reverse function and then 
+//reverse and join turns back to string
+
+document.write("Reversed: " + y + "<br>");
+
+if (d === y) {
+    document.write("It is a palindrome");
+} else {
+    document.write("It is not a palindrome");
+}
+
+    
+
+   </script> 
+</body>
+</html>

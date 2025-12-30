@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+name ="jjs best  "
+        document.write(`hello my name is ${name} dskdsdvkdspo<br>`);//new for concatatination use it
+        document.write(`<br>`)
+        
+        
+        document.write(name.charAt(2));
+        document.write(`<br>`)
+        document.write(name._proto_);
+        document.write(`<br>`)
+        document.write(name.substring(0,4));//negative not work in substring if given strt with zero
+        document.write(`<br>`)
+        document.write(name.slice(-8,4));
+        document.write(`<br>`)
+        document.write(name.trim());
+        document.write(`<br>`)
+        
+        let x=name.trim();
+
+        document.write(name.length);
+        document.write(`<br>`)
+        document.write(x.length);
+        document.write(`<br>`)
+        const url = "https://hitesh.com/hitesh%20ccc"
+        document.write( url.replace('%20','-'))//how as const cant change
+        document.write(`<br>`)
+        let d= document.write (name.split(" "))//it doesnt show array in real
+        let e= name.split(" ")
+        document.write(`<br>`)
+        document.write(typeof e); // prints: object
+
+        document.write(`<br>`)
+    </script>
+</body>
+</html>
